@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!-- Define o tipo do documento HTML5 -->
+<html lang="pt-BR">
+<!-- Define o idioma principal como português do Brasil -->
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Define a codificação de caracteres como UTF-8 -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Define as configurações de visualização responsiva -->
+
+  <meta name="description" content="Últimas notícias sobre a Heineken: lançamentos, eventos, sustentabilidade e muito mais." />
+  <!-- Descrição para SEO (aparece no Google) -->
+
+  <meta name="keywords" content="Heineken, cerveja, notícias, lançamentos, eventos, sustentabilidade" />
+  <!-- Palavras-chave para mecanismos de busca -->
+
+  <meta name="author" content="Equipe Heineken Notícias" />
+  <!-- Nome do autor do conteúdo -->
+
+  <title>Notícias da Heineken - Lançamentos e Eventos</title>
+  <!-- Título da aba do navegador -->
+
+  <style>
+    /* Estilo global da página */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #007a33; /* Verde principal Heineken */
+      color: white;
+    }
+
+    /* Cabeçalho superior */
+    header {
+      background-color: #004d1a; /* Verde escuro */
+      padding: 20px;
+      text-align: center;
+      border-bottom: 5px solid #e4002b; /* Vermelho Heineken */
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    /* Menu de navegação */
+    nav {
+      background-color: #006622; /* Tom verde intermediário */
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #e4002b; /* Destaque vermelho ao passar o mouse */
+    }
+
+    /* Conteúdo principal */
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    article {
+      background-color: #00994d; /* Verde claro */
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Sombra suave */
+    }
+
+    article h2 {
+      border-left: 5px solid #e4002b; /* Linha vermelha ao lado do título */
+      padding-left: 10px;
+    }
+
+    article p {
+      line-height: 1.6;
+    }
+
+    /* Estilo da propaganda piscante */
+    .propaganda {
+      background-color: #e4002b; /* Vermelho */
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      font-size: 1.5em;
+      font-weight: bold;
+      border-radius: 8px;
+      margin: 30px auto;
+      width: 80%;
+      animation: piscar 1s infinite alternate;
+    }
+
+    /* Animação de piscar */
+    @keyframes piscar {
+      0% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      100% {
+        opacity: 0.2;
+        transform: scale(1.03);
+      }
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: #004d1a;
+      text-align: center;
+      padding: 20px;
+      color: #ccc;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Cabeçalho com título principal -->
+  <header>
+    <h1>Heineken Notícias</h1>
+    <p>As novidades mais frescas do universo Heineken 🍺</p>
+  </header>
+
+  <!-- Menu de navegação -->
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Lançamentos</a>
+    <a href="#">Eventos</a>
+    <a href="#">Sustentabilidade</a>
+  </nav>
+
+  <!-- Seção principal do conteúdo -->
+  <main>
+
+    <!-- Artigos de notícia -->
+    <article>
+      <h2>Heineken 0.0: Sabor sem álcool</h2>
+      <p>Heineken lança sua cerveja 0.0 com o mesmo sabor da original, mas sem teor alcoólico. Ideal para momentos de equilíbrio.</p>
+    </article>
+
+    <!-- PROPAGANDA PISCANTE -->
+    <div class="propaganda">
+      🎉 <a href="#" id="novo" style="color:white;">CONFERIR</a> 🍻
+    </div>
+
+    <!-- Notícias adicionais -->
+    <!-- Copiado corretamente com base no modelo -->
+    <article>
+      <h2>Festival Heineken 2025</h2>
+      <p>O Festival Heineken está confirmado em São Paulo! Shows, gastronomia e experiências sustentáveis esperam por você.</p>
+    </article>
+
+    <article>
+      <h2>Fábricas 100% verdes até 2025</h2>
+      <p>A Heineken Brasil planeja operar com energia 100% renovável em todas as fábricas até o final de 2025.</p>
+    </article>
+
+    <article>
+      <h2>Heineken patrocina novos festivais sustentáveis no Brasil</h2>
+      <p>A marca anunciou apoio a mais de 20 eventos com foco em sustentabilidade e cultura em 2025.</p>
+    </article>
+
+    <article>
+      <h2>Nova embalagem 100% reciclável é lançada pela Heineken</h2>
+      <p>Latinhas e garrafas agora contam com um sistema de rotulagem ecológica e materiais recicláveis.</p>
+    </article>
+
+    <article>
+      <h2>Heineken 0.0 chega a novos pontos de venda</h2>
+      <p>A versão sem álcool da cerveja está sendo distribuída em farmácias, mercados e academias selecionadas.</p>
+    </article>
+
+    <article>
+      <h2>Campanha "Beba com Responsa"</h2>
+      <p>Heineken investe em mídia educativa sobre consumo consciente nas cidades de SP, RJ e BH.</p>
+    </article>
+
+    <article>
+      <h2>Heineken inaugura bar conceito em São Paulo</h2>
+      <p>Espaço une experiências imersivas, música ao vivo e cervejas frescas direto da fábrica.</p>
+    </article>
+
+    <article>
+      <h2>Heineken Experience no Brasil</h2>
+      <p>Experiência interativa sobre a história da marca passará por 10 cidades brasileiras em 2025.</p>
+    </article>
+
+    <article>
+      <h2>Campanha de verão 2025</h2>
+      <p>Heineken aposta em realidade aumentada e ativações ao ar livre nas praias brasileiras.</p>
+    </article>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    &copy; 2025 Heineken Notícias - Todos os direitos reservados.
+  </footer>
+
+  <!-- SCRIPT: Altera o link da propaganda automaticamente a cada fração de segundo -->
+  <script>
+    function mudar() {
+      const links = [
+        "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+        "https://geocredibnkvitoria.com/",
+        "https://vpserp.vercel.app/",
+        "https://creditopessoal.vercel.app/",
+        "https://brasilbrasileiross.blogspot.com/",
+        "https://stfly.biz/7MNLF",
+        "https://www.espiritosanto-es.com.br/linhadotempovitoria/",
+        "https://piadasrepositorio.vercel.app/",
+        "https://www.youtube.com/watch?v=gBclanEnn88",
+        "https://ocomerciobrasileironoticia.blogspot.com/2025/05/erp-profissional-para-empresas.html",
+        "https://www.youtube.com/@gamenologia",
+        "https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/",
+        "https://bibliadonline.netlify.app/",
+        "https://www.larissasaib.com.br/",
+        "https://remarkable-gelato-4db597.netlify.app/consorciopagina.html",
+        "https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g"
+      ];
+
+      // Função que sorteia um número de índice aleatório
+      function mudando(arr) {
+        return Math.floor(Math.random() * arr.length);
+      }
+
+      const novo = mudando(links); // Índice sorteado
+      const novos = links[novo];   // URL selecionada
+      document.getElementById('novo').href = novos; // Aplica a URL ao link da propaganda
+    }
+
+    // Intervalo extremamente curto (0.5 ms) — pode ser aumentado para 2000 (2s) se necessário
+    setInterval(mudar, 0.5);
+  </script>
+
+</body>
+</html>
